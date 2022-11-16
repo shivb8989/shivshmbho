@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="WoodLand.WoodlandTest"/>
+      <class name="testNg.dependson"/>
+      <class name="amazon.Annotations"/>
+      <class name="amazon.keywords"/>
+      <class name="testNg.prority"/>
+      <class name="testNg.enabld_false"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
