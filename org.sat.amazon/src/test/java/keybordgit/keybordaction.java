@@ -35,6 +35,8 @@ public static void main(String[] args) throws InterruptedException {
 	
 	actions.sendKeys(Keys.ARROW_DOWN).perform();
 	Thread.sleep(2000);
+	actions.sendKeys(Keys.ARROW_DOWN).perform();
+	Thread.sleep(2000);
 	actions.sendKeys(Keys.ARROW_DOWN).click().build().perform();	
 }
 
